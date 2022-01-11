@@ -1,0 +1,15 @@
+1) xxxHelper - static class with pure functions. Very generic, no state, very small
+2) xxxUtility/Manager - collection of methods pertaining to some kind of context. No state outside of injected classes. Generally performing some business logic that didn’t fit into a domain model. Small/Med size methods
+3) xxxRepository - persistence layer access
+4) xxxMapper - transforms one object to another
+5) xxxService - does some behavior that has an effect outside of the application or as part of an operational process. generally has state. Uses various previously mentioned classes to perform task. Can have some complex orchestration of logic
+6) xxxHandler - responses to a particular request and executes some business logic (through some combinations of previously mentioned classes)
+7) xxxConverter - 
+8) xxxRequest/xxxResponse -
+9) xxxTest/Test_xxx - 
+10) xxxProperties - 
+11) xxxSettings - 
+12) xxxWrapper - 
+13) xxxException - 
+14) xxxController - 
+15) xxxConfig - 
